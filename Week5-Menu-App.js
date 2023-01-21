@@ -55,7 +55,7 @@ class Menu {
             for (let i = 0; i < this.items.length; i++) {
                 orderString += i + '. ' + this.items[i].food + '\n';
             }
-            alert(orderString);
+            alert('In your order:' + '\n\n' + orderString);
         }
 
         deleteOrder() {
